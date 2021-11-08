@@ -1,0 +1,46 @@
+h1{
+    color: cornflowerblue;
+    font-size: 90px;
+    text-align: center;
+}
+.container{
+    height: 600px;
+    width: 30%;
+    margin: auto;
+    background-color: grey;
+    border: 5px solid black;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 25%;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height:90px ;
+    font-size: 30px;   
+}
+input{
+    width: 95%;
+    height: 100px;
+    background-color: gray;
+    margin-top: 20 px;
+    font-size: 30px;
+    text-align: right;
+    padding-right:20px ;
+    font-weight: 700;
+}
+@media(max-width:736px){
+    .container{
+        height: 600px;
+        width: 90%;
+        margin: auto;
+        background-color: grey;
+        border: 5px solid black;
+    }
+    
+    
+}
